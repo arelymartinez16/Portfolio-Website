@@ -1,0 +1,151 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+}
+
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #52FABA; 
+ text-align: center; 
+}
+
+p {
+  font-family: 'Raleway', sans-serif;  
+  text-align: center;
+  /* color: #3a3131; */
+  color: black;
+  letter-spacing: 2px;
+  line-height: 32px;
+}
+
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+hr {
+  height: 2px;
+  background-color: blue;
+  border-color: blue;
+}
+
+.bottomLine {
+  margin-top: 25px;  
+}
+
+footer {
+  text-align: center;
+  padding: 6px;
+}
+
+/* STYLE TEXT */
+
+.homeTitle {
+  color: #19152e;
+  font-size: 80px; 
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#moreMe {
+  padding-bottom: 15px;  
+}
+
+.contactInfo {
+  font-size: 14px;
+  color: #4F4F4F;
+  margin: 5px;
+}
+
+.sectionTitle {
+  margin: 20px;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.projectDes {
+  text-align: center;
+  padding-bottom: 3em;
+  margin-top: 15px; 
+  margin-buttom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+/* STYLE IMAGES */
+#me {
+  max-height: 420px;
+  max-width: 400px;
+  margin-top: 25px;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #387594;
+  margin-bottom: 25px;
+}
+
+.projects {
+  max-height: 40%;
+  max-width: 50%;
+  border-style: solid;
+  border-color: black;
+  border-width: 4px;
+  border-radius: 15%;
+}
+
+
+ /* .flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px;
+} */
+
+.projects:hover {
+  box-shadow: 5px 12px 15px 0 #5ca8ad, 5px 12px 15px 0 #8A947C;
+}
+
+.socialIcons {
+  display: inline;
+  font-size: 2rem; 
+  align-items: center;
+}
+
+.fa-instagram:hover {
+  background-color: rgb(52, 109, 162);
+}
+
+.fa-linkedin-in:hover {
+  background-color: rgb(52, 109, 162);
+}
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #3172C2;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color:  rgb(47, 83, 116);
+}
