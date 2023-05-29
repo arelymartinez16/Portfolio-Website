@@ -133,6 +133,10 @@ a {
   background-color: rgb(52, 109, 162);
 }
 
+.fa-github:hover {
+  background-color: rgb(52, 109, 162);
+}
+
 #email-link:hover {
   background-color: rgb(23, 195, 253);
 }
