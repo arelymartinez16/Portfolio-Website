@@ -35,6 +35,27 @@ hr {
   margin-top: 25px;  
 }
 
+.resume {
+  width: 640px;
+  height: 480px;
+}
+
+/* Adjust size for tablets */
+@media (max-width: 768px) {
+  .resume {
+    width: 90%;
+    height: auto;
+  }
+}
+
+/* Adjust size for mobile devices */
+@media (max-width: 480px) {
+  .resume {
+    width: 100%;
+    height: auto;
+  }
+}
+
 footer {
   text-align: center;
   padding: 6px;
