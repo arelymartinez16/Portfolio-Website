@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- link the webpage's stylesheet -->
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="/style.css?v=2" />
 
   <!-- link the webpage's JavaScript file -->
   <script src="/script.js" defer></script>
@@ -20,15 +20,16 @@
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header>
     <h1 class="homeTitle">Portfolio</h1>
   </header>
-  <nav>
+  <nav aria-label="Primary navigation">
     <ul>
       <li>
         <a href="index.html">Home</a>
@@ -41,9 +42,9 @@
       </li>
     </ul>
   </nav>
-  <main>
+  <main id="main-content">
     <h2 class="sectionTitle">Coding Projects</h2>
-    <a href="https://github.com/deeshabhavsar/Lanny" target="_blank">
+   <a href="https://github.com/deeshabhavsar/Lanny" target="_blank" rel="noopener noreferrer">
       <img src="assets/Lanny.jpg"
         alt="This is a screenshot of the Lanny project that was built in HackPrinceton that tracks every transaction in real-time, answers complex questions about your habits, and hosts the Stakes Challenge."
         class="projects">
@@ -55,7 +56,7 @@
       to connect real-time financial data with an AI model, work with webhooks and APIs, and use prompt engineering to
       provide more personalized responses. I also gained hands-on experience designing an AI experience around an
       existing communication platform rather than requiring users to adopt another app.</p>
-    <a href="https://github.com/arelymartinez16/web103_finalproject" target="_blank">
+   <a href="https://github.com/arelymartinez16/web103_finalproject" target="_blank" rel="noopener noreferrer">
       <img src="assets/roomlink-project.png"
         alt="This is a screenshot of the RoomMateLink project that helps college students find housing."
         class="projects">
@@ -65,7 +66,7 @@
       manage listings, filter by price and location, and connect with others looking for student housing. Inspired by my
       own challenges finding housing for my most recent internship with Liberty Mutual, I wanted to create a solution
       that makes the process simpler and more transparent for students.</p>
-    <a href="https://github.com/colorstackorg/oyster" target="_blank">
+     <a href="https://github.com/colorstackorg/oyster" target="_blank" rel="noopener noreferrer">
       <img src="assets/oyster.png" alt="This is a screenshot of Oyster, ColorStack's open-source project."
         class="projects">
     </a>
@@ -79,10 +80,10 @@
       production-ready features that made the codebase more efficient and maintainable. The whole experience helped me
       grow as a developer and strengthened my ability to build practical, user-focused solutions through teamwork and
       iteration.</p>
-    <a href="https://github.com/arelymartinez16/SoccerLeagueTracker" target="_blank"><img
+     <a href="https://github.com/arelymartinez16/SoccerLeagueTracker" target="_blank" rel="noopener noreferrer"><img
         src="assets/soccer-league-tracker.png" alt="This is a screenshot of the Soccer League Tracker project."
         class="projects"></a>
-    <p class="projectDes">June 2023: This is the first full stack project I have done so far. I created a soccer app
+     <p class="projectDes">June 2023: This is the first full stack project I have done so far. I created a soccer app
       that provides the most recent highlights and live scores from global leagues, and detailed standings and recent
       news from a few soccer leagues. I searched for APIs that have information about recent matches, standings,
       highlights, and stats and it was easier to find APIs for soccer that matched the majority of the project’s
@@ -97,19 +98,19 @@
     </p>
     <a href="https://codepen.io/arelymartinez16/full/jOeRREm" target="_blank"><img src="assets/25+5Clock.png"
         alt="This is a screenshot of the 25 + 5 Clock project." class="projects"></a>
-    <p class="projectDes">June 2023: This was the last project I had to complete for the Front End Development Libraries
+     <p class="projectDes">June 2023: This was the last project I had to complete for the Front End Development Libraries
       Certification. For this project, I decided to utiltize React hooks as a means to enhance my skills and gain
       practical experience in React. By using React hooks, I aimed to deepen my understanding of functional components
       and explore the benefits they offer. Hooks provide a more flexible approach to managing component state and
       lifecycle, allowing for cleaner and more reusable code. I wanted to familiarize myself with this modern approach
       and understand its potential in solving complex state management scenarios.</p>
-    <a href="https://codepen.io/arelymartinez16/full/poZZvPK" target="_blank"><img src="assets/MarkdownPreviewer.png"
+     <a href="https://codepen.io/arelymartinez16/full/poZZvPK" target="_blank" rel="noopener noreferrer"><img src="assets/MarkdownPreviewer.png"
         alt="This is a screenshot of the markdown previewer project." class="projects"></a>
     <p class="projectDes">April 2023: This project was completed as part of the Front End Development Libraries
       Certification. It allowed me to apply my knowledge of React and further develop my skills in building
       user-friendly interfaces. Users type in Markdown syntax in one text box and immediately see a preview of the
       rendered output in another box through the Marked library.</p>
-    <a href="https://codepen.io/arelymartinez16/full/MWBworO" target="_blank"><img src="assets/drum-machine.png"
+     <a href="https://codepen.io/arelymartinez16/full/MWBworO" target="_blank" rel="noopener noreferrer"><img src="assets/drum-machine.png"
         alt="This is a screenshot of the drum machine." class="projects"></a>
     <p class="projectDes">December 2022: This is another project for the Front End Development Libraries Certification.
       I used ReactJS for this project. I created a class component to create the program. For this project, I created a
@@ -117,16 +118,16 @@
       laptop, the elements were spread out. Despite my efforts to fix the issue, I was not able to find a solution
       within the given timeframe. This is something that I would like to continue to work on and improve in the future.
     </p>
-    <a href="https://codepen.io/arelymartinez16/full/WNJLxoV" alt="Link to the mass incarceration activist website"
-      target="_blank"><img src="assets/random-quote-machine.png" alt="This is a screenshot of the random quote machine."
+     <a href="https://codepen.io/arelymartinez16/full/WNJLxoV"
+       target="_blank" rel="noopener noreferrer"><img src="assets/random-quote-machine.png" alt="This is a screenshot of the random quote machine."
         class="projects"></a>
     <p class="projectDes">October 2022: This is the first project for the Front End Development Libraries Certification.
       I used vanilla JavaScript to do this project. I drew inspiration from the freeCodeCamp example while creating this
       project, and incorporated my own ideas and improvements to create something new. I integrated an API to have a
       large pool of quotes for users and there is a new quote button for the user to click on to generate a new quote.
     </p>
-    <a href="https://activist-tookit-mass-incarceration-arely-m-copy-30.arelymartinez.repl.co/index.html"
-      alt="Link to the mass incarceration activist website" target="_blank"><img src="assets/mass-incarceration.png"
+     <a href="https://activist-tookit-mass-incarceration-arely-m-copy-30.arelymartinez.repl.co/index.html"
+       target="_blank" rel="noopener noreferrer"><img src="assets/mass-incarceration.png"
         alt="This is a screenshot of the mass incarceration activist website." class="projects"></a>
     <p class="projectDes">August 2022: I made another activist website to addressed how mass incarceration has not only
       prisoners but also family structures. On the home page, I provided information about the demographics of the
@@ -136,8 +137,8 @@
       how people stood up to that issue. Other excerpts have stories of former prisoners and how their families wera
       affected during that time. Lastly, I provided a script below the excerpts for visiters if they want to contact
       their senator to take action.</p>
-    <a href="https://replit.com/@ArelyMartinez/Cracking-Caesars-Cipher-Arely-M#README.md"
-      alt="Link to the Cracking Caesar's Cipher Python Program" target="_blank">
+     <a href="https://replit.com/@ArelyMartinez/Cracking-Caesars-Cipher-Arely-M#README.md"
+       target="_blank" rel="noopener noreferrer">
       <img src="assets/cracking-caesar-cipher.png"
         alt="This is a screenshot of the Cracking Caesar's Cipher Python Program." class="projects"></a>
     <p class="projectDes">July 2022: This Python program was made to crack the Caesar's Cipher. This was the final
@@ -145,29 +146,29 @@
       prints out all the possible decoded messages by shifting the letters the appropriate number of places. The program
       can decode messages that contain uppercase and lowercase letters, numbers, and a variety of special characters.
     </p>
-    <a href="https://replit.com/@ArelyMartinez/Personality-Quiz-Arely-M#README.md" alt="Link to personality quiz"
-      target="_blank"><img src="assets/personalityquiz2.0.png" alt="This is a screenshot of the personality quiz."
+     <a href="https://replit.com/@ArelyMartinez/Personality-Quiz-Arely-M#README.md"
+       target="_blank" rel="noopener noreferrer"><img src="assets/personalityquiz2.0.png" alt="This is a screenshot of the personality quiz."
         class="projects"></a>
     <p class="projectDes">July 25, 2022: I decided to make another personality quiz this year because I felt that I
       could make a better quiz than the previous one. I mainly wanted to work on the design on the quiz and add some
       extensions to the quiz. This quiz is about if you're a summer person or a winter person.</p>
-    <a href="https://replit.com/@ArelyMartinez/Cipher-Usability-Arely-M#main.py" alt="Link to another Python project"
-      target="_blank"><img src="assets/cipherusability.png" alt="This is a screenshot of the cipher usability project"
+     <a href="https://replit.com/@ArelyMartinez/Cipher-Usability-Arely-M#main.py"
+       target="_blank" rel="noopener noreferrer"><img src="assets/cipherusability.png" alt="This is a screenshot of the cipher usability project"
         class="projects"></a>
     <p class="projectDes">July 2022: This is a continuation of the Programming Caesar's Cipher project. I added more
       characters users can write in their secret message. Instead of being limited with uppercase letters, they can also
       use lowercase letters and symbols.</p>
-    <a href="https://replit.com/@ArelyMartinez/Programming-Caesars-Cipher-Arely-M#main.py"
-      alt="Link to Caesar's Cipher." target="_blank"><img src="assets/cipher.png"
+     <a href="https://replit.com/@ArelyMartinez/Programming-Caesars-Cipher-Arely-M#main.py"
+       target="_blank" rel="noopener noreferrer"><img src="assets/cipher.png"
         alt="This is a screenshot of the Programming Caesar's Cipher project." class="projects"></a>
     <p class="projectDes">July 2022: This program encrypts and decrypts messages that users send. I made this program
       while taking the Intro to Cryptography from Girls Who Code Self Paced Program. This was the first project for the
       course.</p>
-    <a href="https://replit.com/@ArelyMartinez/Breach-Bot-Extension-2#main.py" alt="Link to Breach Bot extension."
-      target="_blank"><img src="assets/breachbot.png" alt="This is a screenshot of the Breach Bot project extension."
+     <a href="https://replit.com/@ArelyMartinez/Breach-Bot-Extension-2#main.py"
+       target="_blank" rel="noopener noreferrer"><img src="assets/breachbot.png" alt="This is a screenshot of the Breach Bot project extension."
         class="projects flex"></a>
-    <a href="https://replit.com/@ArelyMartinez/Breach-Bot-Arely-M#main.py" alt="Link to Breach Bot project"
-      target="_blank"><img src="assets/breachbot.png" alt="This is a screenshot of the Breach Bot project."
+     <a href="https://replit.com/@ArelyMartinez/Breach-Bot-Arely-M#main.py"
+       target="_blank" rel="noopener noreferrer"><img src="assets/breachbot.png" alt="This is a screenshot of the Breach Bot project."
         class="projects flex"></a>
     <p class="projectDes">July 2022: Breach Bot is a bot that informs users about Facebook's data breach in 2019. Users
       can learn about the breach's details, Facebook's response, and my opinion about the breach. I also made an
@@ -175,34 +176,34 @@
       confused while reading my reflection. This was the final project for the Intro to Cybersecurity course. If you're
       seeing this from your laptop and you want to see the extension, click on the left image. However, if you're seeing
       this from your phone and you want to see the extension, click on the top image.</p>
-    <a href="https://replit.com/@ArelyMartinez/CyHelp-Arely-M#main.py" alt="Link to CyHelp project."
-      target="_blank"><img src="assets/cyhelp.png" alt="This is a screenshot of the CyHelp project."
+     <a href="https://replit.com/@ArelyMartinez/CyHelp-Arely-M#main.py"
+       target="_blank" rel="noopener noreferrer"><img src="assets/cyhelp.png" alt="This is a screenshot of the CyHelp project."
         class="projects"></a>
     <p class="projectDes">July 2022: CyHelp is a chatbot that informs users about the everyday use of cybersecurity and
       the CIA Triad, which is a model of how we protect data. This was made while I was taking the Intro to
       Cybersecurity course from Girls Who Code Self-Paced Program.</p>
-    <a href="https://replit.com/@ArelyMartinez/Andrews-Generator-love#index.html"
-      alt="Link to Andrew's Comment Generator" target="_blank"><img src="assets/AndrewGenerator.png"
+     <a href="https://replit.com/@ArelyMartinez/Andrews-Generator-love#index.html"
+       target="_blank" rel="noopener noreferrer"><img src="assets/AndrewGenerator.png"
         alt="This is a screenshot of Andrew's Comment Generator." class="projects"></a>
     <p class="projectDes">January 27, 2022: I made another comment generator for my friend Andrew. He's a bit different
       from Carl in terms of his sense of humor. The purpose of the comment generators is to showcase their
       personalities. I hope I can make another comment generator in the upcoming months.</p>
-    <a href="https://replit.com/@ArelyMartinez/Carls-Generator-3#index.html" alt="Link to Carl's Comment Generator"
-      target="_blank"><img src="assets/CarlGenerator.png" alt="This is a screenshot of Carl's Comment Generator."
+     <a href="https://replit.com/@ArelyMartinez/Carls-Generator-3#index.html"
+       target="_blank" rel="noopener noreferrer"><img src="assets/CarlGenerator.png" alt="This is a screenshot of Carl's Comment Generator."
         class="projects"></a>
     <p class="projectDes">January 20, 2022: I made a comment generator for my best friend Carl. These comments were
       found on many streams, and I made a list of some comments he made. The comment generator was inspired by a fairy
       comment generator a group of Barnard students made. I thought it wasn't hard because the comment generator is
       similar to the fact generator I made in the activist website. You can learn more about this project by clicking on
       the image.</p>
-    <a href="https://replit.com/@ArelyMartinez/Activist-Toolkit-Starter-Code#index.html" alt="Link to activist website."
-      target="_blank"><img src="assets/activisttoolkit.png" alt="This is a screenshot of the activist website."
+     <a href="https://replit.com/@ArelyMartinez/Activist-Toolkit-Starter-Code#index.html"
+       target="_blank" rel="noopener noreferrer"><img src="assets/activisttoolkit.png" alt="This is a screenshot of the activist website."
         class="projects"></a>
     <p class="projectDes">August 2021: This activist website is about informing the public about the reasons why
       immigrants come into the country, and the psychological effects immigration centers has on the children. This was
       also made when I was on the program.</p>
-    <a href="https://replit.com/@ArelyMartinez/Personality-Quiz-Starter-Code#index.html" alt="Link to personality quiz"
-      target="_blank"><img src="assets/personalityquiz.png" alt="This is a screenshot of the personality quiz."
+     <a href="https://replit.com/@ArelyMartinez/Personality-Quiz-Starter-Code#index.html"
+       target="_blank" rel="noopener noreferrer"><img src="assets/personalityquiz.png" alt="This is a screenshot of the personality quiz."
         class="projects"></a>
     <p class="projectDes">August 2021: I made this personality quiz while I was on the Girls Who Code Summer Immersion
       Program. It was very fun making the quiz. I'm planning to make another personality quiz this year. In the
@@ -212,18 +213,20 @@
   <footer>
     <p class="contactInfo">Contact Info:</p>
     <div class="socialIcons">
-      <a href="https://instagram.com/arelymartinez16" target="_blank">
+      <a href="https://instagram.com/arelymartinez16" target="_blank" rel="noopener noreferrer"
+        aria-label="Instagram">
         <i class="fab fa-instagram"></i>
       </a>
-      <a href="https://www.linkedin.com/in/arely-martinez-garcia16/" target="_blank">
+      <a href="https://www.linkedin.com/in/arely-martinez-garcia16/" target="_blank" rel="noopener noreferrer"
+        aria-label="LinkedIn">
         <i class="fab fa-linkedin-in"></i>
       </a>
-      <a href="https://github.com/arelymartinez16" target="_blank">
+      <a href="https://github.com/arelymartinez16" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
         <i class="fab fa-github"></i>
       </a>
     </div>
   </footer>
-  <a id="email-link" href="mailto:arelymartinez741@gmail.com" target="_blank">Email Me</a>
+  <a id="email-link" href="mailto:arelymartinez741@gmail.com">Email Me</a>
 </body>
 
 </html>

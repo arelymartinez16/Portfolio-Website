@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- link the webpage's stylesheet -->
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="/style.css?v=2" />
 
   <!-- link the webpage's JavaScript file -->
   <script src="/script.js" defer></script>
@@ -21,16 +21,17 @@
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header>
     <h1 class="homeTitle">Hello World!</h1>
   </header>
 
-  <nav id="navbar">
+  <nav id="navbar" aria-label="Primary navigation">
     <ul>
       <li>
         <a href="index.html">Home</a>
@@ -44,7 +45,7 @@
     </ul>
   </nav>
 
-  <main>
+  <main id="main-content">
     <h2 class="sectionTitle">About Me!</h2>
     <img src="assets/headshot.jpeg" alt="Arely is wearing a dark green shirt." id="me">
     <!-- <p>Hey, my name is Arely Martinez Garcia! I recently graduated from high school, and I'm currently attending Lehman College. I intend to major in Computer Science, and I want to pursue a bachelor's degree. I am currently learning Python, HTMl, CSS, and Javascript. I am so eager to take my skills to the next level! I want to help underrepresented communities in many ways. At the moment, I want to spread awareness about issues that occur around the world by making activist websites. Eventually, I would like to contribute to new technologies that would help the disabled or develop something that represents different communities. My coding projects can be found on the portfolio page.</p> -->
@@ -83,18 +84,20 @@
   <footer>
     <p class="contactInfo">Contact Info:</p>
     <div class="socialIcons">
-      <a href="https://instagram.com/arelymartinez16" target="_blank">
+        <a href="https://instagram.com/arelymartinez16" target="_blank" rel="noopener noreferrer"
+          aria-label="Instagram">
         <i class="fab fa-instagram"></i>
       </a>
-      <a href="https://www.linkedin.com/in/arely-martinez-garcia16/" target="_blank">
+        <a href="https://www.linkedin.com/in/arely-martinez-garcia16/" target="_blank" rel="noopener noreferrer"
+          aria-label="LinkedIn">
         <i class="fab fa-linkedin-in"></i>
       </a>
-      <a href="https://github.com/arelymartinez16" target="_blank">
+        <a href="https://github.com/arelymartinez16" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
         <i class="fab fa-github"></i>
       </a>
     </div>
   </footer>
-  <a id="email-link" href="mailto:arelymartinez741@gmail.com" target="_blank">Email Me</a>
+  <a id="email-link" href="mailto:arelymartinez741@gmail.com">Email Me</a>
 </body>
 
 </html>
