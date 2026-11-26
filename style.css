@@ -220,6 +220,7 @@ nav li {
 
 nav li a {
   display: flex;
+  align-self: stretch;
   min-width: 48px;
   min-height: 48px;
   align-items: center;
@@ -228,7 +229,6 @@ nav li a {
   text-decoration: none;
   color: #ffffff;
   font-size: 1.3em;
-  padding: 1em;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -246,6 +246,8 @@ nav li a:focus-visible {
   nav ul {
     align-items: stretch;
     flex-direction: column;
+    gap: 0;
+    padding: 0;
   }
 
   nav li,
