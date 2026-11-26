@@ -205,17 +205,17 @@ a {
 nav ul {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   gap: 0.5rem;
   list-style-type: none;
   background-color: var(--nav-background);
-  overflow: hidden;
-  padding: 0.5rem;
+  padding: 0 0.5rem;
 }
 
 nav li {
   display: flex;
+  align-items: stretch;
 }
 
 nav li a {
